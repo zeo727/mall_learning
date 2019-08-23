@@ -3,6 +3,7 @@ package com.macro.mall.tiny.dto;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 /**
  * oss上传成功后的回调参数
@@ -10,6 +11,7 @@ import lombok.Setter;
  */
 @Setter
 @Getter
+@ToString
 public class OssCallbackParam {
     @ApiModelProperty("请求的回调地址")
     private String callbackUrl;

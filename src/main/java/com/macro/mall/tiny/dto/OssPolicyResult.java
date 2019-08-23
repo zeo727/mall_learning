@@ -3,6 +3,7 @@ package com.macro.mall.tiny.dto;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 /**
  * 获取OSS上传文件授权返回结果
@@ -10,6 +11,7 @@ import lombok.Setter;
  */
 @Setter
 @Getter
+@ToString
 public class OssPolicyResult {
     @ApiModelProperty("访问身份验证中用到用户标识")
     private String accessKeyId;

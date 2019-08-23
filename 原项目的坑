@@ -1,0 +1,4 @@
+1.mac系统generatorConfig.xml中targetProject路径应为/斜杠。
+2.MyBatis Generator使用过程中踩过的一个坑
+https://mp.weixin.qq.com/s/3HYLdK2gYZeRU3_PMuNMiA
+3.整合redis需要导入netty包。

@@ -14,7 +14,6 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>test</name>
     <description>Demo project for Spring Boot</description>
-
     <dependencies>
         <!--SpringBoot通用依赖模块-->
         <dependency>
@@ -57,6 +56,17 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.15</version>
+        </dependency>
+        <!--Swagger-UI API文档生产工具-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.7.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.7.0</version>
         </dependency>
     </dependencies>
 
